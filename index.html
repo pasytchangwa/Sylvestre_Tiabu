@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -11,30 +11,78 @@
     <div class="wrapper">
       <header>
         <h1 id="title">freeCodeCamp Survey Form</h1>
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <p id="description">
+          Thank you for taking the time to help us improve the platform
+        </p>
       </header>
       <section>
-        <form action="
-        " id="survey-form">
-        <label for="Name" id="name-label">Name</label>
-        <input type="text" id = "Name" name = "Name" placeholder="Enter your name">
-        <label for="email" id="email-label">Email</label>
-        <input type="email" name="email" id="email" placeholder="Enter your email">
-        <label for="Age" id="number-label">Age (optional)</label>
-        <input type="number" id ="Age" name = "Age" placeholder="Age" min="1" max="100">
-        <label for="roles">Which option best describes your current role?</label>
-        <select name="roles" id="dropdown">
-          <option value="Select current role" disabled selected>Select current role</option>
-        <option value="Student">Student</option>
-        <option value="Full time job">Full time job</option>
-        <option value="Full time learner">Full time learner</option>
-        <option value="Prefer not to say">Prefer not to say </option>
-        <option value="Other">Other</option>
-      </select>
-        
-      </form>
+        <form
+          action="
+        "
+          id="survey-form"
+        >
+          <label for="Name" id="name-label">Name</label>
+          <input
+            type="text"
+            id="Name"
+            name="Name"
+            placeholder="Enter your name"
+          />
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+          <label for="Age" id="number-label">Age (optional)</label>
+          <input
+            type="number"
+            id="Age"
+            name="Age"
+            placeholder="Age"
+            min="1"
+            max="100"
+          />
+          <label for="roles"
+            >Which option best describes your current role?</label
+          >
+          <select name="roles" id="dropdown">
+            <option value="Select current role" disabled selected>
+              Select current role
+            </option>
+            <option value="Student">Student</option>
+            <option value="Full time job">Full time job</option>
+            <option value="Full time learner">Full time learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+          </select>
+          <label for="">Would you recommend freeCodeCamp to a friend?</label>
+          <input
+            type="radio"
+            name="user-choice"
+            id=""
+            value="Definitely"
+            checked
+          />
+          Definitely
+          <input type="radio" name="user-choice" id="" value="Maybe" /> Maybe
+          <input type="radio" name="user-choice" id="" value="Not sure" /> Not
+          sure
+
+          <label for="feature">What is your favorite feature of freeCodeCamp?</label>
+          <select name="roles" id="feature">
+            <option value="Select current role" disabled selected>
+              Select an option 
+            </option>
+            <option value="chanlleges">Chanlleges</option>
+            <option value="projects">Projects</option>
+            <option value="comunity">Comunity</option>
+            <option value="open source">Open Source</option>
+          </select>
+        </form>
       </section>
     </div>
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
