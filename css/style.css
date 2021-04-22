@@ -2,11 +2,16 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- color: white
 }
 
-#wrapper {
+.wrapper {
+height: 100vh;
  background-color: rgba(18, 18, 83, 0.781);
+ margin: 0 auto;
+    text-align: center;
+}
+section {
+    
 }
 
 
